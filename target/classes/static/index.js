@@ -28,7 +28,7 @@ function toggleuser(){
     userImage.src = users[id].img;
 
     // 2: name
-    var userName = document.getElementById("user-name");
+    var userName = document.getElementById("user-namee");
     userName.innerHTML = users[id].name;
 
     // 3: gender
