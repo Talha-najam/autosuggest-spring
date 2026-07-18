@@ -8,9 +8,45 @@
     border-color:black;
     padding: 20px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .navbar a{
-    padding:0px 20px 0px 20px;
-    text-decoration:solid;
+    padding:20px 20px 20px 20px;
+    text-decoration:underline;
+}
+
+.navbar a:hover{
+    color:blue;
+    background:aqua;
+}
+
+.body{
+    background-color:lightblue;
+    text-align: center;
+}
+
+.card{
+    border: 1px solid black;
+    background-color: rgb(255, 129, 240);
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 50px;
+    overflow: hidden;
+    margin-right:auto;
+    margin-left:auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card button{
+    border-style: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
